@@ -1,0 +1,73 @@
+/* Styling for the Todo component */
+.todo-container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Styling for the input field */
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 300px;
+}
+
+/* Styling for the TodoList component */
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styling for individual TodoItem */
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 4px 0;
+  width: 300px;
+  background-color: #f5f5f5;
+  transition: background-color 0.2s;
+}
+
+.todo-item:hover {
+  background-color: #e0e0e0;
+}
+
+.task-text {
+  flex-grow: 1;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
+}
