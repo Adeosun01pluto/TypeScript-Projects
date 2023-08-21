@@ -3,6 +3,7 @@ import './App.css';
 import Counter from './Projects/Counter/Counter';
 import Todo from './Projects/Todo/Todo';
 import Weather from './Projects/Weather/Weather';
+import ContactForm from './Projects/ContactForm/ContactForm';
 
 function App() {
   
@@ -10,7 +11,8 @@ function App() {
     <div>
       {/* <Counter/>  */}
       {/* <Todo/>  */}
-      <Weather/> 
+      {/* <Weather/>  */}
+      <ContactForm />
     </div>
   );
 }
